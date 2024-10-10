@@ -98,5 +98,19 @@ class Program
         }
         Console.WriteLine("Catálogo salvo.");
     }
+     static void CarregarCatalogo()
+    {
+        if (File.Exists("catalogo.txt"))
+        {
+            string[] linhas = File.ReadAllLines("catalogo.txt");
+            foreach (var linha in linhas)
+            {
+                string[] dados = linha.Split(';');
+                catalogo.Add(new Livro(dados[0], dados[1], int.Parse(dados[2])));
+            }
+            Console.WriteLine("Catálogo carregado.");
+        }
+        else
+        {
   
             
