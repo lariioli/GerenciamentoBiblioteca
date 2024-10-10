@@ -34,5 +34,16 @@ class Program
             else Console.WriteLine("Opção inválida.");
         }
     }
+      static void CadastrarLivro()
+    {
+        Console.Write("Título: ");
+        string titulo = Console.ReadLine();
+        Console.Write("Autor: ");
+        string autor = Console.ReadLine();
+        Console.Write("Quantidade: ");
+        int quantidade = int.Parse(Console.ReadLine());
 
+        catalogo.Add(new Livro(titulo, autor, quantidade));
+        Console.WriteLine("Livro cadastrado!");
+  
             
