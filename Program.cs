@@ -71,5 +71,12 @@ class Program
             Console.WriteLine("Livro indisponível.");
         }
     }
+     static void DevolverLivro()
+    {
+        Console.Write("Título do livro: ");
+        string titulo = Console.ReadLine();
+        Livro livro = catalogo.Find(l => l.Titulo.ToLower() == titulo.ToLower());
+
+        if (livro != null)
   
             
