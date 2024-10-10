@@ -11,3 +11,4 @@
 
 ## Etapas implementadas:
 ## Backlog (Possíveis melhorias):
+## Conclusão:
