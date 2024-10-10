@@ -5,14 +5,15 @@ using System.IO;
 class Program
 {
     static List<Livro> catalogo = new List<Livro>();
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        CarregarCatalogo();
+
+        while (true)
         {
-            CarregarCatalago();
-            while(true)
-            {
              Console.Clear();
-             Console.WriteLine("n/Menu Biblioteca:");
+             Console.WriteLine("\nMenu Biblioteca:");
              Console.WriteLine("1. Cadastrar livro");
              Console.WriteLine("2. Ver catálogo");
              Console.WriteLine("3. Emprestar livro");
