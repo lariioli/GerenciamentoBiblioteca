@@ -87,5 +87,16 @@ class Program
             Console.WriteLine("Livro não encontrado.");
         }
     }
+    static void SalvarCatalogo()
+    {
+        using (StreamWriter writer = new StreamWriter("catalogo.txt"))
+        {
+            foreach (var livro in catalogo)
+            {
+                writer.WriteLine($"{livro.Titulo};{livro.Autor};{livro.Quantidade}");
+            }
+        }
+        Console.WriteLine("Catálogo salvo.");
+    }
   
             
