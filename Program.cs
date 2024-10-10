@@ -45,5 +45,15 @@ class Program
 
         catalogo.Add(new Livro(titulo, autor, quantidade));
         Console.WriteLine("Livro cadastrado!");
+         }
+
+    static void VerCatalogo()
+    {
+        Console.WriteLine("\nCatálogo de Livros:");
+        foreach (var livro in catalogo)
+        {
+            Console.WriteLine($"Título: {livro.Titulo}, Autor: {livro.Autor}, Quantidade: {livro.Quantidade}");
+        }
+    }
   
             
