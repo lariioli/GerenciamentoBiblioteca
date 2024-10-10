@@ -78,5 +78,14 @@ class Program
         Livro livro = catalogo.Find(l => l.Titulo.ToLower() == titulo.ToLower());
 
         if (livro != null)
+         {
+            livro.Quantidade++;
+            Console.WriteLine($"Você devolveu '{livro.Titulo}'.");
+        }
+        else
+        {
+            Console.WriteLine("Livro não encontrado.");
+        }
+    }
   
             
