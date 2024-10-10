@@ -125,5 +125,10 @@ class Livro
 
     public Livro(string titulo, string autor, int quantidade)
     {
+        Titulo = titulo;
+        Autor = autor;
+        Quantidade = quantidade;
+    }
+}    
   
             
