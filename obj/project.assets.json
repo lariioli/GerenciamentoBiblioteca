@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documents\\Larissa\\GerenciamentoBiblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
