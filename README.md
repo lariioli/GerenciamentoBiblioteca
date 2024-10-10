@@ -10,3 +10,4 @@
 - ***Ambiente de desenvolvimento:*** Virtual Studio Code
 
 ## Etapas implementadas:
+## Backlog (Possíveis melhorias):
