@@ -62,5 +62,14 @@ class Program
         Livro livro = catalogo.Find(l => l.Titulo.ToLower() == titulo.ToLower());
 
         if (livro != null && livro.Quantidade > 0)
+         {
+            livro.Quantidade--;
+            Console.WriteLine($"Você emprestou '{livro.Titulo}'.");
+        }
+        else
+        {
+            Console.WriteLine("Livro indisponível.");
+        }
+    }
   
             
