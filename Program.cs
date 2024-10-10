@@ -55,5 +55,12 @@ class Program
             Console.WriteLine($"Título: {livro.Titulo}, Autor: {livro.Autor}, Quantidade: {livro.Quantidade}");
         }
     }
+     static void EmprestarLivro()
+    {
+        Console.Write("Título do livro: ");
+        string titulo = Console.ReadLine();
+        Livro livro = catalogo.Find(l => l.Titulo.ToLower() == titulo.ToLower());
+
+        if (livro != null && livro.Quantidade > 0)
   
             
