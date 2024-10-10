@@ -18,7 +18,7 @@ class Program
              Console.WriteLine("3. Emprestar livro");
              Console.WriteLine("4. Devolver livro");
              Console.WriteLine("5. Sair e salvar");
-             
+             Console.Clean();
              string opcao = Console.ReadLine();
 
              if (opcao == "1") CadastrarLivro();
