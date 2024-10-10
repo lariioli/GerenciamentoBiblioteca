@@ -26,10 +26,12 @@ class Program
              else if (opcao == "3") EmprestarLivro();
              else if (opcao == "4") DevolverLivro();
              else if (opcao == "5") 
-
+              {
+                SalvarCatalogo();
+                break;
             }
+            else Console.WriteLine("Opção inválida.");
         }
-
-
     }
-}
+
+            
