@@ -18,7 +18,14 @@ class Program
              Console.WriteLine("3. Emprestar livro");
              Console.WriteLine("4. Devolver livro");
              Console.WriteLine("5. Sair e salvar");
+             
+             string opcao = Console.ReadLine();
 
+             if (opcao == "1") CadastrarLivro();
+             else if (opcao == "2") VerCatalogo();
+             else if (opcao == "3") EmprestarLivro();
+             else if (opcao == "4") DevolverLivro();
+             else if (opcao == "5") 
 
             }
         }
